@@ -1,0 +1,40 @@
+/* Tag selector: for heading */
+h2 {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+}
+/* Tag selector: styles all <p> tags */
+p {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* ID selector: targets the specific paragraph with id="vote" */
+#vote {
+    color: darkgreen;
+    font-weight: bold;
+    border-left: 4px solid green;
+    padding-left: 10px;
+    background-color: #f0fff0;
+}
+
+/* Class selector: targets .vision class paragraph */
+.vision {
+    background-color: #fff9e6;
+    padding: 15px;
+    border: 2px dashed orange;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: 30px auto;
+    border: 5px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
